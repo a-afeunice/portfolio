@@ -1,6 +1,13 @@
 import React from 'react'
 
 const achieve = [
+
+  {
+    year: '2024',
+    role: 'Frontend Developer Intern',
+    company: 'NUUD MONEY',
+    description: 'Collaborated with a team to develop a widget using React Native, a new framework for me,successfully adapting to and learning the technology while contributing to the project',
+  },
     {
         year: '2024',
         role: 'Frontend Developer Trainee',
@@ -24,7 +31,7 @@ const achieve = [
 
 const Experience = () => {
   return (
-    <div className='border-b border-neutral-900 pb-4'>
+    <div id='experience' className='border-b border-neutral-900 pb-4'>
         <h1 className='my-20 text-center text-4xl'>Experience</h1>
 
         <div>
